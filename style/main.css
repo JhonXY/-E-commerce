@@ -1,0 +1,103 @@
+.comWidth{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.leftArea{
+    float: left;
+}
+.rightArea{
+    float: right;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/*topbar*/
+.topBar{
+    line-height: 31px;
+    height: 31px;
+    background-color: #f7f7f7;
+}
+.topBar a:hover{
+    color: red;
+
+}
+.collection{
+    /*x轴在左侧，y轴在中间，不重复*/
+    background: url(../images/icon/collection.gif) left center no-repeat;
+    padding-left: 19px;
+    font-weight: ;
+}
+
+/*logo*/
+.logoBar{
+    height: 85px;
+    background-color: #1d7ad9;
+}
+.logo{
+    padding-left: 41px;
+    padding-top: 13px;
+}
+
+/*search*/
+.search_box{
+    width: 430px;
+    padding-top: 23px;
+    padding-left: 185px;
+}
+/*这里的padding使得光标没有那么的靠左*/
+/*.search_text{
+    width: 350px;
+    height: 35px;
+    padding: 0 5px;
+}*/
+/*兼容式写法*/
+.search_text{
+    width: 350px;
+    height: 35px;
+    /*css hack代表ie9*/
+    line-height: 35px\9;
+    padding: 0px 5px;
+    background-color: #fff;
+}
+.search_btn{
+    width: 70px;
+    height: 35px;
+    font-style: 'MicrosoftYaHei';
+    background-color: #ff8c00;
+}
+
+/*购物车*/
+.shopCar{
+    width: 145px;
+    height: 35px;
+    background-color: #ff8c00;
+    margin-top: 23px;
+    font:14px/35px 'MicrosoftYaHei';
+    color: #fff
+    margin-right: 19px;
+}
+.shopText{
+    /*font-size: 14px;
+    font-style: 'MicrosoftYaHei';
+    line-height: 35px;
+    color: #fff;*/
+    height: 100%;
+    width: 87px;
+    border-right: #e27a00 solid 1px;
+    background: url(../images/icon/shop.jpg) 10px center no-repeat;
+    /*利用首行缩进来使文字离开图片*/
+    text-indent: 40px;
+}
+.shopNum{
+    width: 27px;
+    height: 35px;
+    border-left: #ff9c01 solid 1px;
+    background: url(../images/icon/jiantou.jpg) 33px center no-repeat;
+    text-align: right;
+    padding-right: 29px;
+}
